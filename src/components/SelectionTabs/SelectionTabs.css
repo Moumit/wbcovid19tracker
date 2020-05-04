@@ -1,0 +1,24 @@
+.tab-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tab-style {
+    width: 80%;
+}
+
+.react-swipeable-view-container>div {
+    overflow: hidden !important;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .tab-style {
+      width: 100%;
+    }
+
+    
+} 
